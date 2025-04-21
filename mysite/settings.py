@@ -34,8 +34,6 @@ if render_host:
     ALLOWED_HOSTS.append(render_host)
 
 
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'blog',
